@@ -1,12 +1,12 @@
 {
-  "users": [
-    { "username": "Brian", "password": "pass1" },
-    { "username": "Kassim", "password": "pass2" },
-    { "username": "Oliver", "password": "pass3" },
-    { "username": "Sonia", "password": "pass4" },
-    { "username": "Lydiah", "password": "pass5" },
-    { "username": "Shark", "password": "pass6" }
-  ],
+  "users": {
+    "Brian": "pass1",
+    "Kassim": "pass2",
+    "Oliver": "pass3",
+    "Sonia": "pass4",
+    "Lydiah": "pass5",
+    "Shark": "pass6"
+  },
   "candidates": [
     {
       "id": "1",
@@ -26,8 +26,8 @@
   ],
   "votes": [
     {
-      "id": "4",
-      "user": "Brian",
+      "id": "cedd",
+      "user": "brian",
       "candidate": "Candidate B",
       "timestamp": "2025-03-26T21:09:21.055Z"
     },
@@ -42,6 +42,12 @@
       "user": "Oliver",
       "candidate": "Candidate B",
       "timestamp": "2025-03-27T14:37:43.723Z"
+    },
+    {
+      "id": "51d4",
+      "user": "Brian",
+      "candidate": "Candidate A",
+      "timestamp": "2025-03-28T08:04:56.668Z"
     }
   ]
 }
